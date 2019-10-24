@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    gateway:
+      rsocket:
+        id: gateway
+        route-id: 11
+
