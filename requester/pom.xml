@@ -9,8 +9,6 @@
 		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>requester</artifactId>
-	
-
 	<properties>
 		<java.version>13</java.version>
 	</properties>

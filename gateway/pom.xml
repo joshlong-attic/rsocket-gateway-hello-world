@@ -9,8 +9,6 @@
 		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>gateway</artifactId>
-	<name>gateway</name>
-	<description>gateway</description>
 
 	<properties>
 		<java.version>1.8</java.version>

@@ -32,7 +32,7 @@ class GreetingClient {
 		RSocketRequester requester = event.getPayload();
 		requester
 			.route("greetings")
-			.metadata(this.client.forwarding("pong"))
+			.metadata(this.client.forwarding("responder"))
 			.data(new GreetingRequest("World"))
 			.retrieveFlux(GreetingResponse.class)
 			.subscribe(gr -> log.info("new message: " + gr.getMessage()));

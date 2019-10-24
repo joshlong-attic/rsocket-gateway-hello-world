@@ -1,6 +1,6 @@
 spring.cloud.gateway.rsocket.client:
   route-id: 1
-  service-name: ping
+  service-name: requester
 #  tags:
 #    INSTANCE_NAME: ping1
 #  forwarding:
@@ -12,4 +12,4 @@ spring.cloud.gateway.rsocket.client:
 
 server:
   port: 0
-debug: true
+#debug: true
